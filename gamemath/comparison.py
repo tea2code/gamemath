@@ -21,7 +21,6 @@ def float_equal(a, b, epsilon=EPSILON):
     >>> float_equal(125352.00001, 125352.00001)
     True
     """
-
     # Shortcut, handles infinities.
     if a == b:
         return True
