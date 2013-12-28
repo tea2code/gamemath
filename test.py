@@ -1,7 +1,4 @@
-﻿import comparison
-import pythagorean
-import rotation
-import vector
+﻿from gamemath import comparison, pythagorean, rotation, vector
 
 if __name__ == '__main__':
     import doctest

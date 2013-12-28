@@ -1,4 +1,4 @@
-﻿import comparison, pythagorean
+﻿from . import comparison, pythagorean
 
 def reflect_at_line(x1, y1, x2, y2, x3, y3):
     """ Reflects vector 1 at the line between vectors 2 and 3. Returns the x-component 
